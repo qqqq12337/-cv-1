@@ -7,7 +7,7 @@
 72C:\Users\13300\Desktop\cv-1\node_modules\caniuse-lite\data\regions\RE.js121436361000000000 0
 63C:\Users\13300\Desktop\cv-1\node_modules\path-type\package.json132660446921948133 0
 71C:\Users\13300\Desktop\cv-1\node_modules\postcss-normalize-charset\dist132660446896510504 1
-32C:\Users\13300\Desktop\cv-1\dist132660469462148803 1
+32C:\Users\13300\Desktop\cv-1\dist132660473600223225 1
 76C:\Users\13300\Desktop\cv-1\node_modules\svgo\lib\svgo\css-select-adapter.js121436361000000000 0
 51C:\Users\13300\Desktop\cv-1\node_modules\css-select132660446922157567 1
 81C:\Users\13300\Desktop\cv-1\node_modules\postcss-discard-duplicates\dist\index.js121436361000000000 0
@@ -24,7 +24,7 @@
 40C:\Users\13300\Desktop\cv-1\package.json132660446984410159 0
 72C:\Users\13300\Desktop\cv-1\node_modules\caniuse-lite\data\regions\LS.js121436361000000000 0
 68C:\Users\13300\Desktop\cv-1\node_modules\source-map\lib\array-set.js131411568470000000 0
-38C:\Users\13300\Desktop\cv-1\.gitignore132660440412520000 0
+38C:\Users\13300\Desktop\cv-1\.gitignore132660470970257169 0
 37C:\Users\13300\Desktop\cv-1\.cache\e9132659672502572443 1
 85C:\Users\13300\Desktop\cv-1\node_modules\caniuse-lite\data\features\variable-fonts.js121436361000000000 0
 63C:\Users\13300\Desktop\cv-1\node_modules\postcss\lib\postcss.js121436361000000000 0
@@ -480,7 +480,7 @@
 67C:\Users\13300\Desktop\cv-1\node_modules\is-resolvable\package.json132660446924256515 0
 71C:\Users\13300\Desktop\cv-1\node_modules\yaml\dist\Document-9b4560a1.js121436361000000000 0
 63C:\Users\13300\Desktop\cv-1\node_modules\hsla-regex\.travis.yml130671339940000000 0
-54C:\Users\13300\Desktop\cv-1\dist\index.dc7ad878.js.map132660469462138813 0
+54C:\Users\13300\Desktop\cv-1\dist\index.dc7ad878.js.map132660473600213255 0
 68C:\Users\13300\Desktop\cv-1\node_modules\yaml\dist\legacy-exports.js121436361000000000 0
 63C:\Users\13300\Desktop\cv-1\node_modules\yaml\dist\parse-cst.js121436361000000000 0
 86C:\Users\13300\Desktop\cv-1\node_modules\css-tree\lib\syntax\node\AttributeSelector.js121436361000000000 0
@@ -763,7 +763,7 @@
 79C:\Users\13300\Desktop\cv-1\node_modules\postcss-normalize-string\dist\index.js121436361000000000 0
 73C:\Users\13300\Desktop\cv-1\node_modules\source-map-js\lib\source-node.js121436361000000000 0
 78C:\Users\13300\Desktop\cv-1\node_modules\postcss-discard-comments\package.json132660446921948133 0
-43C:\Users\13300\Desktop\cv-1\dist\index.html132660469462088941 0
+43C:\Users\13300\Desktop\cv-1\dist\index.html132660473600113519 0
 72C:\Users\13300\Desktop\cv-1\node_modules\cosmiconfig\dist\types.d.ts.map121436361000000000 0
 71C:\Users\13300\Desktop\cv-1\node_modules\svgo\plugins\removeUnusedNS.js121436361000000000 0
 74C:\Users\13300\Desktop\cv-1\node_modules\svgo\plugins\removeUselessDefs.js121436361000000000 0
@@ -2506,7 +2506,7 @@
 56C:\Users\13300\Desktop\cv-1\node_modules\.bin\nanoid.cmd132660446983620372 0
 54C:\Users\13300\Desktop\cv-1\node_modules\.bin\svgo.cmd132660446926302878 0
 54C:\Users\13300\Desktop\cv-1\node_modules\.bin\svgo.ps1132660446926302878 0
-50C:\Users\13300\Desktop\cv-1\dist\index.dc7ad878.js132660469462088941 0
+50C:\Users\13300\Desktop\cv-1\dist\index.dc7ad878.js132660473600123495 0
 45C:\Users\13300\Desktop\cv-1\dist\index.js.map132659921526632500 0
 49C:\Users\13300\Desktop\cv-1\dist\main.1f19ae8e.js132659961357075751 0
 37C:\Users\13300\Desktop\cv-1\.cache\01132659672498074482 1
