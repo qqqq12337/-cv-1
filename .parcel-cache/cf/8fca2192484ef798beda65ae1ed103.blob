@@ -1,0 +1,25 @@
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$html = document.querySelector("#html");
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$style = document.querySelector("#style");
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$string = `/*你好，我叫小杨\n*接下来我演示一下我前端功底\n*首先我要准备一个div\n*/\n#div1{\n    border: 1px solid red;\n    width: 200px;\n    height: 200px;\n}\n/*接下来我把 div 变成一个八卦图\n*注意看好了\n*首先，把div变成一个园\n*/\n#div1{\n    border-radius:50%;\n    box-shadow: 0 0 3px rgba(0,0,0,0.5);\n    border: none;\n}\n/*八卦是阴阳形成的\n*一黑一白\n**/\n#div1{\n    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%); \n}\n/*加两个风火轮*/\n#div1::before{\n    width:100px;\n    height:100px;\n    top:0;\n    left:50%;\n    transform: translateX(-50%);\n    background:#000;\n    border-radius:50%;\n    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);\n}\n#div1::after{\n    width:100px;\n    height:100px;\n    bottom:0;\n    left:50%;\n    transform: translateX(-50%);\n    background:#fff;\n    border-radius:50%;\n    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);\n}\n`;
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$string2 = "";
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$n = 0;
+let $16b5ad875ae907e2f7f79e7b8fe116cc$var$step = ()=>{
+    setTimeout(()=>{
+        if ($16b5ad875ae907e2f7f79e7b8fe116cc$var$string[$16b5ad875ae907e2f7f79e7b8fe116cc$var$n] === "\n") //如果是回车，就照搬
+        $16b5ad875ae907e2f7f79e7b8fe116cc$var$string2 += "<br>";
+        else if ($16b5ad875ae907e2f7f79e7b8fe116cc$var$string[$16b5ad875ae907e2f7f79e7b8fe116cc$var$n] === " ") $16b5ad875ae907e2f7f79e7b8fe116cc$var$string2 += "&nbsp;";
+        else //如果 不是就照搬
+        $16b5ad875ae907e2f7f79e7b8fe116cc$var$string2 += $16b5ad875ae907e2f7f79e7b8fe116cc$var$string[$16b5ad875ae907e2f7f79e7b8fe116cc$var$n];
+        $16b5ad875ae907e2f7f79e7b8fe116cc$var$html.innerHTML = $16b5ad875ae907e2f7f79e7b8fe116cc$var$string2;
+        $16b5ad875ae907e2f7f79e7b8fe116cc$var$style.innerHTML = $16b5ad875ae907e2f7f79e7b8fe116cc$var$string.substring(0, $16b5ad875ae907e2f7f79e7b8fe116cc$var$n);
+        //length 55
+        window.scrollTo(0, 99999);
+        $16b5ad875ae907e2f7f79e7b8fe116cc$var$html.scrollTo(0, 99999);
+        if ($16b5ad875ae907e2f7f79e7b8fe116cc$var$n < $16b5ad875ae907e2f7f79e7b8fe116cc$var$string.length - 1) {
+            //如果n不是最后一个就继续
+            $16b5ad875ae907e2f7f79e7b8fe116cc$var$n += 1;
+            $16b5ad875ae907e2f7f79e7b8fe116cc$var$step();
+        }
+    }, 10);
+};
+$16b5ad875ae907e2f7f79e7b8fe116cc$var$step();
